@@ -1,0 +1,7 @@
+name=Cutting Scythes
+id=CuttingScythes
+description=Adds the ability for Sythes to cut objects infront of the player like grass and young plants. It gives maintenance experience and uses durability.
+author=Necromunger
+icon=icon.png
+poster=poster.png
+modversion=1.0
