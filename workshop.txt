@@ -1,8 +1,12 @@
 version=1
 id=2699212968
 title=Cutting Scythes
+description=[h3]Summary[/h3]
 description=Adds the ability for scythes to cut grass and other shrubs on the tile you are standing on and the tile infront of you.
 description=
 description=From this you also get some maintenance experience and the possibiliy of durability loss on the scythe which is reduced from maintenance skill.
+description=
+description=[h3]Multiplayer[/h3]
+description=Currently in testing but adds no objects to the world and should be able to safely removed. Multiplayer testing will finish shortly.
 tags=Build 41;Realistic
 visibility=public
