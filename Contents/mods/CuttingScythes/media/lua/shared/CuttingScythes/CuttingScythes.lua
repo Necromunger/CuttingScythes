@@ -16,7 +16,7 @@ function CuttingScythes.ProcessLineOfSquares(player, callback)
         local square = squares:get(i);
         local objects = square:getObjects();
         for j = 0, objects:size() - 1 do
-            callback(objects:get(j));
+            callback(square, objects:get(j));
         end
     end
 end

@@ -9,7 +9,7 @@ local function onWeaponSwingHitPoint(player, handWeapon)
 
     local didRemoveObject = false;
 
-    CuttingScythes.ProcessLineOfSquares(player, function(object)
+    CuttingScythes.ProcessLineOfSquares(player, function(square, object)
         if object:getProperties() and object:getProperties():Is(IsoFlagType.canBeRemoved) then
             didRemoveObject = true;
         end
